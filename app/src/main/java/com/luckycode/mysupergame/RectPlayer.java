@@ -34,4 +34,8 @@ public class RectPlayer implements GameObject {
         rect.set(point.x - rect.width()/2 , point.y - rect.height()/2 , point.x + rect.width()/2,
                 point.y + rect.height()/2);
     }
+
+    public Rect getRect() {
+        return rect;
+    }
 }
